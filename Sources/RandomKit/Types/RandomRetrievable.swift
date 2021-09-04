@@ -49,17 +49,3 @@ public protocol RandomRetrievableInRange: RandomRetrievable {
     func random<R: RandomGenerator>(in range: Range<Index>, using randomGenerator: inout R) -> Iterator.Element?
 
 }
-
-extension RandomRetrievableInRange where Index: Strideable, Index.Stride: SignedInteger {
-
-    /// Returns a random element in `range` without checking whether `self` or `range` is empty.
-    public func uncheckedRandom<R: RandomGenerator>(in range: CountableRange<Index>, using randomGenerator: inout R) -> Iterator.Element {
-        return uncheckedRandom(in: Range(range), using: &randomGenerator)
-    }
-
-    /// Returns an optional random element in `range`. The result is `nil` if `self` or `range` is empty.
-    public func random<R: RandomGenerator>(in range: CountableRange<Index>, using randomGenerator: inout R) -> Iterator.Element? {
-        return random(in: Range(range), using: &randomGenerator)
-    }
-
-}

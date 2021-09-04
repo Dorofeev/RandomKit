@@ -1,0 +1,29 @@
+PODS:
+  - ShiftOperations (1.0.2)
+  - Threadly (2.0.1)
+
+DEPENDENCIES:
+  - ShiftOperations (from `https://github.com/Dorofeev/ShiftOperations.git`)
+  - Threadly (from `https://github.com/Dorofeev/Threadly.git`)
+
+EXTERNAL SOURCES:
+  ShiftOperations:
+    :git: https://github.com/Dorofeev/ShiftOperations.git
+  Threadly:
+    :git: https://github.com/Dorofeev/Threadly.git
+
+CHECKOUT OPTIONS:
+  ShiftOperations:
+    :commit: d660757053a02ab2d7b04167048fd3e564b7bd22
+    :git: https://github.com/Dorofeev/ShiftOperations.git
+  Threadly:
+    :commit: 2dd240b3a8311b8c9dba4e98a328835d9b20cbb2
+    :git: https://github.com/Dorofeev/Threadly.git
+
+SPEC CHECKSUMS:
+  ShiftOperations: 89bef1da2bff3d7f2667f2ab0702731d2fff1807
+  Threadly: 92ba0a4c809180cb9319f8d01d375ea9dd29b83e
+
+PODFILE CHECKSUM: cc722e937f36d57fa235b74d4f26b93134052434
+
+COCOAPODS: 1.10.2

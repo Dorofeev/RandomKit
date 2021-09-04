@@ -18,10 +18,6 @@
 		522523611F329CA8007274AC /* Tester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522523601F329CA8007274AC /* Tester.swift */; };
 		522523621F329CA8007274AC /* Tester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522523601F329CA8007274AC /* Tester.swift */; };
 		522523631F329CA8007274AC /* Tester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522523601F329CA8007274AC /* Tester.swift */; };
-		524300A31EFC61D000333F46 /* Threadly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5243009A1EFC61B600333F46 /* Threadly.framework */; };
-		524300AA1EFC61F800333F46 /* Threadly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5243009C1EFC61B600333F46 /* Threadly.framework */; };
-		524300AF1EFC620900333F46 /* Threadly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5243009E1EFC61B600333F46 /* Threadly.framework */; };
-		524300B41EFC622500333F46 /* Threadly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 524300A01EFC61B600333F46 /* Threadly.framework */; };
 		5247B99D1E890BB200C6B60E /* RandomRetrievable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5247B99C1E890BB200C6B60E /* RandomRetrievable.swift */; };
 		5247B99E1E890BB200C6B60E /* RandomRetrievable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5247B99C1E890BB200C6B60E /* RandomRetrievable.swift */; };
 		5247B99F1E890BB200C6B60E /* RandomRetrievable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5247B99C1E890BB200C6B60E /* RandomRetrievable.swift */; };
@@ -142,10 +138,6 @@
 		52A6B15A1E37B9A6001533D3 /* Typecasting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A6B1581E37B9A6001533D3 /* Typecasting.swift */; };
 		52A6B15B1E37B9A6001533D3 /* Typecasting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A6B1581E37B9A6001533D3 /* Typecasting.swift */; };
 		52A6B15C1E37B9A6001533D3 /* Typecasting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A6B1581E37B9A6001533D3 /* Typecasting.swift */; };
-		52ADBEE91DE55D13004CB28A /* ShiftOperations.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52ADBEE21DE55CEA004CB28A /* ShiftOperations.framework */; };
-		52ADBEEA1DE55D18004CB28A /* ShiftOperations.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52ADBEE41DE55CEA004CB28A /* ShiftOperations.framework */; };
-		52ADBEEB1DE55D1E004CB28A /* ShiftOperations.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52ADBEE61DE55CEA004CB28A /* ShiftOperations.framework */; };
-		52ADBEEC1DE55D24004CB28A /* ShiftOperations.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52ADBEE81DE55CEA004CB28A /* ShiftOperations.framework */; };
 		52B64AC51E8857AF000BBDDA /* RandomKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5282009F1BC9C4B6001FDD58 /* RandomKit.framework */; };
 		52B64AD41E8857D0000BBDDA /* RandomKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52C96A1F1BD9828F00C3CBE0 /* RandomKit.framework */; };
 		52B64ADA1E885842000BBDDA /* ConstantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BD45631E6E56D700E2C9A1 /* ConstantTests.swift */; };
@@ -246,127 +238,16 @@
 		52D5BF141E9E3E37006C1E60 /* ChaChaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D5BF0F1E9E3E1A006C1E60 /* ChaChaTests.swift */; };
 		52D5BF151E9E3E38006C1E60 /* ChaChaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D5BF0F1E9E3E1A006C1E60 /* ChaChaTests.swift */; };
 		52D5BF161E9E3E38006C1E60 /* ChaChaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D5BF0F1E9E3E1A006C1E60 /* ChaChaTests.swift */; };
+		90A298403E8D7EE349369706 /* Pods_RandomKit_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22313FA21FA043539240F34E /* Pods_RandomKit_iOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		524300991EFC61B600333F46 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5243008F1EFC61B600333F46 /* Threadly.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 522AA4B61EFB1AFB003CFC76;
-			remoteInfo = "Threadly macOS";
-		};
-		5243009B1EFC61B600333F46 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5243008F1EFC61B600333F46 /* Threadly.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 522AA4C41EFB1B20003CFC76;
-			remoteInfo = "Threadly iOS";
-		};
-		5243009D1EFC61B600333F46 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5243008F1EFC61B600333F46 /* Threadly.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 522AA4D11EFB1B2C003CFC76;
-			remoteInfo = "Threadly watchOS";
-		};
-		5243009F1EFC61B600333F46 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5243008F1EFC61B600333F46 /* Threadly.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 522AA4EB1EFB1B4E003CFC76;
-			remoteInfo = "Threadly tvOS";
-		};
-		524300A11EFC61CB00333F46 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5243008F1EFC61B600333F46 /* Threadly.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 522AA4B51EFB1AFB003CFC76;
-			remoteInfo = "Threadly macOS";
-		};
-		524300A61EFC61E800333F46 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 52ADBEDA1DE55CE9004CB28A /* ShiftOperations.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 52ADBE991DE5526A004CB28A;
-			remoteInfo = "ShiftOperations iOS";
-		};
-		524300A81EFC61ED00333F46 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5243008F1EFC61B600333F46 /* Threadly.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 522AA4C31EFB1B20003CFC76;
-			remoteInfo = "Threadly iOS";
-		};
-		524300AB1EFC61FE00333F46 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 52ADBEDA1DE55CE9004CB28A /* ShiftOperations.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 52ADBEA61DE55272004CB28A;
-			remoteInfo = "ShiftOperations watchOS";
-		};
-		524300AD1EFC620500333F46 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5243008F1EFC61B600333F46 /* Threadly.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 522AA4D01EFB1B2C003CFC76;
-			remoteInfo = "Threadly watchOS";
-		};
-		524300B01EFC621600333F46 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 52ADBEDA1DE55CE9004CB28A /* ShiftOperations.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 52ADBEB31DE55279004CB28A;
-			remoteInfo = "ShiftOperations tvOS";
-		};
-		524300B21EFC621C00333F46 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5243008F1EFC61B600333F46 /* Threadly.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 522AA4EA1EFB1B4D003CFC76;
-			remoteInfo = "Threadly tvOS";
-		};
-		525FEEDA1EE67B5D0015254D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 52ADBEDA1DE55CE9004CB28A /* ShiftOperations.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 52ADBE8B1DE55262004CB28A;
-			remoteInfo = "ShiftOperations macOS";
-		};
 		528200F71BC9FA42001FDD58 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 528200861BC9C460001FDD58 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 528200901BC9C4A2001FDD58;
 			remoteInfo = "RandomKit-OSX";
-		};
-		52ADBEE11DE55CEA004CB28A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 52ADBEDA1DE55CE9004CB28A /* ShiftOperations.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 52ADBE8C1DE55262004CB28A;
-			remoteInfo = "ShiftOperations macOS";
-		};
-		52ADBEE31DE55CEA004CB28A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 52ADBEDA1DE55CE9004CB28A /* ShiftOperations.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 52ADBE9A1DE5526A004CB28A;
-			remoteInfo = "ShiftOperations iOS";
-		};
-		52ADBEE51DE55CEA004CB28A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 52ADBEDA1DE55CE9004CB28A /* ShiftOperations.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 52ADBEA71DE55272004CB28A;
-			remoteInfo = "ShiftOperations watchOS";
-		};
-		52ADBEE71DE55CEA004CB28A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 52ADBEDA1DE55CE9004CB28A /* ShiftOperations.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 52ADBEB41DE55279004CB28A;
-			remoteInfo = "ShiftOperations tvOS";
 		};
 		52B64AC61E8857AF000BBDDA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -385,6 +266,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		22313FA21FA043539240F34E /* Pods_RandomKit_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RandomKit_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		520396741E9AFD8F0041FAA3 /* ChaCha.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChaCha.swift; sourceTree = "<group>"; };
 		520DA1341DDF16FD00F265CE /* UnsafeRandom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnsafeRandom.swift; sourceTree = "<group>"; };
 		520DA1391DDF5FA800F265CE /* RandomEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomEnum.swift; sourceTree = "<group>"; };
@@ -404,7 +286,6 @@
 		523D8B101DBEADD1006FF58C /* CGVector+RandomKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGVector+RandomKit.swift"; sourceTree = "<group>"; };
 		524083961CA5B31E00AB8851 /* RandomKit.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = RandomKit.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		524083971CA5B35800AB8851 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
-		5243008F1EFC61B600333F46 /* Threadly.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Threadly.xcodeproj; path = Carthage/Checkouts/Threadly/Threadly.xcodeproj; sourceTree = "<group>"; };
 		5247B99C1E890BB200C6B60E /* RandomRetrievable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomRetrievable.swift; sourceTree = "<group>"; };
 		52485F661E3FEE11007C53AC /* StackArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackArray.swift; sourceTree = "<group>"; };
 		525EB2BD1DBD607F00E8B246 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -444,7 +325,6 @@
 		52A6B1581E37B9A6001533D3 /* Typecasting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Typecasting.swift; sourceTree = "<group>"; };
 		52ADBE761DE54A98004CB28A /* RandomWithMaxWidth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomWithMaxWidth.swift; sourceTree = "<group>"; };
 		52ADBE7B1DE54BBF004CB28A /* RandomWithExactWidth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomWithExactWidth.swift; sourceTree = "<group>"; };
-		52ADBEDA1DE55CE9004CB28A /* ShiftOperations.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ShiftOperations.xcodeproj; path = Carthage/Checkouts/ShiftOperations/ShiftOperations.xcodeproj; sourceTree = "<group>"; };
 		52B64AC01E8857AF000BBDDA /* RandomKit iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RandomKit iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52B64ACF1E8857D0000BBDDA /* RandomKit tvOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RandomKit tvOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52BD455D1E6E56CE00E2C9A1 /* LinuxMain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinuxMain.swift; sourceTree = "<group>"; };
@@ -463,6 +343,8 @@
 		52D5BF0F1E9E3E1A006C1E60 /* ChaChaTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChaChaTests.swift; sourceTree = "<group>"; };
 		52F9E7601CA5BBBA00039162 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		52FD11371DE2811C002EF43E /* RandomRawRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomRawRepresentable.swift; sourceTree = "<group>"; };
+		827A478AD58DF4EF206C860B /* Pods-RandomKit iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RandomKit iOS.debug.xcconfig"; path = "Target Support Files/Pods-RandomKit iOS/Pods-RandomKit iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		E0D4B77B7545E844418FB522 /* Pods-RandomKit iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RandomKit iOS.release.xcconfig"; path = "Target Support Files/Pods-RandomKit iOS/Pods-RandomKit iOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -470,8 +352,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				524300A31EFC61D000333F46 /* Threadly.framework in Frameworks */,
-				52ADBEE91DE55D13004CB28A /* ShiftOperations.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,8 +359,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				524300AA1EFC61F800333F46 /* Threadly.framework in Frameworks */,
-				52ADBEEA1DE55D18004CB28A /* ShiftOperations.framework in Frameworks */,
+				90A298403E8D7EE349369706 /* Pods_RandomKit_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,8 +367,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				524300AF1EFC620900333F46 /* Threadly.framework in Frameworks */,
-				52ADBEEB1DE55D1E004CB28A /* ShiftOperations.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -521,8 +398,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				524300B41EFC622500333F46 /* Threadly.framework in Frameworks */,
-				52ADBEEC1DE55D24004CB28A /* ShiftOperations.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -562,17 +437,6 @@
 				523D8B101DBEADD1006FF58C /* CGVector+RandomKit.swift */,
 			);
 			path = CoreGraphics;
-			sourceTree = "<group>";
-		};
-		524300901EFC61B600333F46 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5243009A1EFC61B600333F46 /* Threadly.framework */,
-				5243009C1EFC61B600333F46 /* Threadly.framework */,
-				5243009E1EFC61B600333F46 /* Threadly.framework */,
-				524300A01EFC61B600333F46 /* Threadly.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		525EB2BC1DBD606F00E8B246 /* Support */ = {
@@ -653,13 +517,14 @@
 			isa = PBXGroup;
 			children = (
 				52F9E6DA1CA5B4DF00039162 /* Sources */,
-				52ADBED91DE55CD8004CB28A /* Dependencies */,
 				525EB2BC1DBD606F00E8B246 /* Support */,
 				528200F21BC9FA42001FDD58 /* Tests */,
 				528200921BC9C4A2001FDD58 /* Products */,
 				524083961CA5B31E00AB8851 /* RandomKit.playground */,
 				52F9E7601CA5BBBA00039162 /* Package.swift */,
 				524083971CA5B35800AB8851 /* LICENSE.md */,
+				6D3BA16866C0F9883768DABA /* Pods */,
+				CC732AEF00BBC9B997A65E19 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -694,26 +559,6 @@
 				52485F661E3FEE11007C53AC /* StackArray.swift */,
 			);
 			path = Internal;
-			sourceTree = "<group>";
-		};
-		52ADBED91DE55CD8004CB28A /* Dependencies */ = {
-			isa = PBXGroup;
-			children = (
-				52ADBEDA1DE55CE9004CB28A /* ShiftOperations.xcodeproj */,
-				5243008F1EFC61B600333F46 /* Threadly.xcodeproj */,
-			);
-			name = Dependencies;
-			sourceTree = "<group>";
-		};
-		52ADBEDB1DE55CE9004CB28A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				52ADBEE21DE55CEA004CB28A /* ShiftOperations.framework */,
-				52ADBEE41DE55CEA004CB28A /* ShiftOperations.framework */,
-				52ADBEE61DE55CEA004CB28A /* ShiftOperations.framework */,
-				52ADBEE81DE55CEA004CB28A /* ShiftOperations.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		52BD45621E6E56D700E2C9A1 /* RandomKitTests */ = {
@@ -763,6 +608,23 @@
 			path = Sources;
 			sourceTree = "<group>";
 		};
+		6D3BA16866C0F9883768DABA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				827A478AD58DF4EF206C860B /* Pods-RandomKit iOS.debug.xcconfig */,
+				E0D4B77B7545E844418FB522 /* Pods-RandomKit iOS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CC732AEF00BBC9B997A65E19 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22313FA21FA043539240F34E /* Pods_RandomKit_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -809,8 +671,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				524300A21EFC61CB00333F46 /* PBXTargetDependency */,
-				525FEEDB1EE67B5D0015254D /* PBXTargetDependency */,
 			);
 			name = "RandomKit macOS";
 			productName = "RandomKit-OSX";
@@ -821,6 +681,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 528200A41BC9C4B6001FDD58 /* Build configuration list for PBXNativeTarget "RandomKit iOS" */;
 			buildPhases = (
+				1F64FA05BD2AF1AC40546F5F /* [CP] Check Pods Manifest.lock */,
 				5282009A1BC9C4B6001FDD58 /* Sources */,
 				5282009B1BC9C4B6001FDD58 /* Frameworks */,
 				5282009C1BC9C4B6001FDD58 /* Headers */,
@@ -829,8 +690,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				524300A91EFC61ED00333F46 /* PBXTargetDependency */,
-				524300A71EFC61E800333F46 /* PBXTargetDependency */,
 			);
 			name = "RandomKit iOS";
 			productName = "RandomKit-iOS";
@@ -849,8 +708,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				524300AE1EFC620500333F46 /* PBXTargetDependency */,
-				524300AC1EFC61FE00333F46 /* PBXTargetDependency */,
 			);
 			name = "RandomKit watchOS";
 			productName = "RandomKit-watchOS";
@@ -923,8 +780,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				524300B31EFC621C00333F46 /* PBXTargetDependency */,
-				524300B11EFC621600333F46 /* PBXTargetDependency */,
 			);
 			name = "RandomKit tvOS";
 			productName = "RandomKit tvOS";
@@ -973,21 +828,12 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 528200851BC9C460001FDD58;
 			productRefGroup = 528200921BC9C4A2001FDD58 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 52ADBEDB1DE55CE9004CB28A /* Products */;
-					ProjectRef = 52ADBEDA1DE55CE9004CB28A /* ShiftOperations.xcodeproj */;
-				},
-				{
-					ProductGroup = 524300901EFC61B600333F46 /* Products */;
-					ProjectRef = 5243008F1EFC61B600333F46 /* Threadly.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				528200901BC9C4A2001FDD58 /* RandomKit macOS */,
@@ -1000,65 +846,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		5243009A1EFC61B600333F46 /* Threadly.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Threadly.framework;
-			remoteRef = 524300991EFC61B600333F46 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		5243009C1EFC61B600333F46 /* Threadly.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Threadly.framework;
-			remoteRef = 5243009B1EFC61B600333F46 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		5243009E1EFC61B600333F46 /* Threadly.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Threadly.framework;
-			remoteRef = 5243009D1EFC61B600333F46 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		524300A01EFC61B600333F46 /* Threadly.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Threadly.framework;
-			remoteRef = 5243009F1EFC61B600333F46 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		52ADBEE21DE55CEA004CB28A /* ShiftOperations.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = ShiftOperations.framework;
-			remoteRef = 52ADBEE11DE55CEA004CB28A /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		52ADBEE41DE55CEA004CB28A /* ShiftOperations.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = ShiftOperations.framework;
-			remoteRef = 52ADBEE31DE55CEA004CB28A /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		52ADBEE61DE55CEA004CB28A /* ShiftOperations.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = ShiftOperations.framework;
-			remoteRef = 52ADBEE51DE55CEA004CB28A /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		52ADBEE81DE55CEA004CB28A /* ShiftOperations.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = ShiftOperations.framework;
-			remoteRef = 52ADBEE71DE55CEA004CB28A /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		5282008F1BC9C4A2001FDD58 /* Resources */ = {
@@ -1111,6 +898,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F64FA05BD2AF1AC40546F5F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RandomKit iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5282008C1BC9C4A2001FDD58 /* Sources */ = {
@@ -1393,46 +1205,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		524300A21EFC61CB00333F46 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Threadly macOS";
-			targetProxy = 524300A11EFC61CB00333F46 /* PBXContainerItemProxy */;
-		};
-		524300A71EFC61E800333F46 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "ShiftOperations iOS";
-			targetProxy = 524300A61EFC61E800333F46 /* PBXContainerItemProxy */;
-		};
-		524300A91EFC61ED00333F46 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Threadly iOS";
-			targetProxy = 524300A81EFC61ED00333F46 /* PBXContainerItemProxy */;
-		};
-		524300AC1EFC61FE00333F46 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "ShiftOperations watchOS";
-			targetProxy = 524300AB1EFC61FE00333F46 /* PBXContainerItemProxy */;
-		};
-		524300AE1EFC620500333F46 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Threadly watchOS";
-			targetProxy = 524300AD1EFC620500333F46 /* PBXContainerItemProxy */;
-		};
-		524300B11EFC621600333F46 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "ShiftOperations tvOS";
-			targetProxy = 524300B01EFC621600333F46 /* PBXContainerItemProxy */;
-		};
-		524300B31EFC621C00333F46 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Threadly tvOS";
-			targetProxy = 524300B21EFC621C00333F46 /* PBXContainerItemProxy */;
-		};
-		525FEEDB1EE67B5D0015254D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "ShiftOperations macOS";
-			targetProxy = 525FEEDA1EE67B5D0015254D /* PBXContainerItemProxy */;
-		};
 		528200F81BC9FA42001FDD58 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 528200901BC9C4A2001FDD58 /* RandomKit macOS */;
@@ -1482,7 +1254,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				ONLY_ACTIVE_ARCH = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -1515,7 +1287,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -1626,6 +1398,7 @@
 		};
 		528200A51BC9C4B6001FDD58 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 827A478AD58DF4EF206C860B /* Pods-RandomKit iOS.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -1667,6 +1440,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/Support/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1682,6 +1456,7 @@
 		};
 		528200A61BC9C4B6001FDD58 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0D4B77B7545E844418FB522 /* Pods-RandomKit iOS.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -1717,6 +1492,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/Support/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nikolaivazquez.RandomKit;

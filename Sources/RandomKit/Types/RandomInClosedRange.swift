@@ -38,7 +38,7 @@ extension RandomInClosedRange where Self: Strideable & Comparable, Self.Stride :
     /// Returns a random value of `Self` inside of the closed range.
     public static func random<R: RandomGenerator>(in closedRange: CountableClosedRange<Self>,
                                                   using randomGenerator: inout R) -> Self {
-        return random(in: ClosedRange(closedRange), using: &randomGenerator)
+        return random(in: closedRange, using: &randomGenerator)
     }
 
 }

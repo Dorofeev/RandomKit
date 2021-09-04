@@ -162,15 +162,12 @@ extension MutableCollection where Self: UniqueShuffleableInRange {
 
 }
 
-extension UnsafeBufferPointer: RandomRetrievableInRange {}
+extension UnsafeBufferPointer: RandomRetrievableInRange {
+    
+}
 
 extension UnsafeMutableBufferPointer {
-
-    /// Shuffles the elements of `self` in `range`.
-    public func shuffle<R: RandomGenerator>(in range: CountableRange<Int>, using randomGenerator: inout R) {
-        shuffle(in: Range(range), using: &randomGenerator)
-    }
-
+    
     /// Shuffles the elements of `self` in a unique order in `range`.
     public func shuffleUnique<R: RandomGenerator>(in range: Range<Int>, using randomGenerator: inout R) {
         if range.isEmpty {
@@ -185,7 +182,7 @@ extension UnsafeMutableBufferPointer {
 
     /// Shuffles the elements of `self` in `range`.
     public func shuffle<R: RandomGenerator>(in range: Range<Int>, using randomGenerator: inout R) {
-        for i in CountableRange(range) {
+        for i in range {
             let j = Int.uncheckedRandom(in: range, using: &randomGenerator)
             if j != i {
                 swap(&self[i], &self[j])
@@ -197,12 +194,6 @@ extension UnsafeMutableBufferPointer {
     public func shuffleUnique<R: RandomGenerator>(using randomGenerator: inout R) {
         shuffleUnique(in: indices, using: &randomGenerator)
     }
-
-    /// Shuffles the elements of `self` in a unique order in `range`.
-    public func shuffleUnique<R: RandomGenerator>(in range: CountableRange<Int>, using randomGenerator: inout R) {
-        shuffleUnique(in: Range(range), using: &randomGenerator)
-    }
-
 }
 
 extension UnsafeMutableBufferPointer: RandomRetrievableInRange, ShuffleableInRange, UniqueShuffleableInRange {
@@ -215,20 +206,6 @@ extension UnsafeMutableBufferPointer: RandomRetrievableInRange, ShuffleableInRan
 }
 
 extension UnsafeRawBufferPointer: RandomRetrievableInRange {}
-
-extension UnsafeMutableRawBufferPointer {
-
-    /// Shuffles the elements of `self` in `range`.
-    public func shuffle<R: RandomGenerator>(in range: CountableRange<Int>, using randomGenerator: inout R) {
-        shuffle(in: Range(range), using: &randomGenerator)
-    }
-
-    /// Shuffles the elements of `self` in a unique order in `range`.
-    public func shuffleUnique<R: RandomGenerator>(in range: CountableRange<Int>, using randomGenerator: inout R) {
-        shuffleUnique(in: Range(range), using: &randomGenerator)
-    }
-
-}
 
 extension UnsafeMutableRawBufferPointer: RandomRetrievableInRange, ShuffleableInRange, UniqueShuffleableInRange {
 

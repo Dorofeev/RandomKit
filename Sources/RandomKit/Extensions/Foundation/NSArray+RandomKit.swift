@@ -66,7 +66,7 @@ extension NSMutableArray: ShuffleableInRange, UniqueShuffleableInRange {
 
     /// Shuffles the elements of `self` in `range`.
     public func shuffle<R: RandomGenerator>(in range: Range<Int>, using randomGenerator: inout R) {
-        for i in CountableRange(range) {
+        for i in range {
             let j = Index.uncheckedRandom(in: range, using: &randomGenerator)
             if j != i {
                 exchangeObject(at: i, withObjectAt: j)

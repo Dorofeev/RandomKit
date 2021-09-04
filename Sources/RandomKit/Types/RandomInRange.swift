@@ -51,12 +51,12 @@ extension RandomInRange where Self: Strideable & Comparable, Self.Stride : Signe
 
     /// Returns an optional random value of `Self` inside of the range using `randomGenerator`.
     public static func random<R: RandomGenerator>(in range: CountableRange<Self>, using randomGenerator: inout R) -> Self? {
-        return random(in: Range(range), using: &randomGenerator)
+        return random(in: range, using: &randomGenerator)
     }
 
     /// Returns a random value of `Self` inside of the unchecked range using `randomGenerator`.
     public static func uncheckedRandom<R: RandomGenerator>(in range: CountableRange<Self>, using randomGenerator: inout R) -> Self {
-        return uncheckedRandom(in: Range(range), using: &randomGenerator)
+        return uncheckedRandom(in: range, using: &randomGenerator)
     }
 
 }
